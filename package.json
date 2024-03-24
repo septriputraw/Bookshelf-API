@@ -1,0 +1,24 @@
+{
+  "name": "bookshelfapiku",
+  "version": "1.0.0",
+  "description": "Submission Bookshelf API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "bookshelf",
+    "api",
+    "hapi"
+  ],
+  "author": "Septri Putra Wiarka",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22"
+  }
+}
