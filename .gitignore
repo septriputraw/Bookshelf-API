@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build files
+build/
+dist/
+
+# Miscellaneous
+.DS_Store
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.test
+!.env.production
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for Yarn
+yarn.lock
